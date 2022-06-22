@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Productivity_App">
         <activity
-            android:name=".MainActivity"
+            android:name=".LogInActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Productivity_App.NoActionBar">
