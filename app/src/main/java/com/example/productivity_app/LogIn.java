@@ -30,14 +30,6 @@ public class LogIn extends Fragment {
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
-        binding.logIn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NavHostFragment.findNavController(LogIn.this)
-                        .navigate(R.id.action_FirstFragment_to_SecondFragment);
-            }
-        });
     }
 
     @Override
